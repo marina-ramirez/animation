@@ -1,0 +1,30 @@
+@keyframes coolDude {
+  0% {
+    transform: rotate(35deg);
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(35deg);
+  }
+  75% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(35deg);
+  }
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+img {
+  animation-name: coolDude;
+  animation-duration: 3s;
+  position: center;
+  color: white;
+  transform-origin: left top;
+  animation: coolDude 3s infinite linear;
+}
+/*# sourceMappingURL=style.css.map */
